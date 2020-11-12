@@ -1,0 +1,54 @@
+:root {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.barraSuperior {
+    background-color: #eac926;
+
+}
+h2 {
+    font-size: 18px;
+}
+form {
+    padding: 50px;
+}
+.campos {
+    margin: 5px;
+    }
+.campos:focus {
+    transform: scale(1.2);
+}
+h1 {
+    font-size: 22px;
+    color:  #03264C;
+    text-decoration: underline overline;
+    line-height: 40px;
+}
+#registerForm {
+    padding: 50px;
+    border: 10px solid #03264C;
+    background-color: #eac926;
+    border-radius: 50px;
+
+}
+#loginForm {
+    margin: 0px;
+    border: 10px solid #03264C;
+    background-color: #eac926;
+    border-radius: 50px;
+
+}
+#buscador {
+    padding: 0px;
+    margin-left: 20px;
+}
+footer {
+    background-color: #ebebeb;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    transform: scale(0.8);
+}
